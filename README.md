@@ -7,7 +7,7 @@
 
 The process involves converting models created with TensorFlow Core to TensorFlow Lite models. The conversion workflow begins with evaluating the model's compatibility with TensorFlow Lite's runtime environments. If the model uses operations outside the compatible set, options include refactoring the model or using advanced conversion techniques.​
 
-[!conversion workflow](./imgs/conversion_workflow.png)
+![conversion workflow](./imgs/conversion_workflow.png)
 
 ##### Model Conversion​
 
@@ -134,7 +134,7 @@ The final file can be found [here](./code/o3_predictor.cpp)
 
 #### Arduino IDE Project creation
 Now in Arduino we click on File -> New​
-[!](./imgs/project_creation.png)
+![](./imgs/project_creation.png)
 
 ##### New development boards installation​
 
@@ -144,7 +144,7 @@ Add the Espressif URL that includes the definition of the development boards.​
 
 https://espressif.github.io/arduino-esp32/package_esp32_index.json​
 
-[!](./imgs/additional_cards_install.png)
+![](./imgs/additional_cards_install.png)
 
 
 ##### Libraries Installation
@@ -157,11 +157,11 @@ Libraries example:​
 · Pubsubclient​
 · TensorFlowLite_ESP32​
 
-[!](./imgs/libraries_install.png)
+![](./imgs/libraries_install.png)
 
 ##### Workflow
 
-[!](./imgs/workflow.png)
+![](./imgs/workflow.png)
 
 The setup function is a good place to initialise the input and output parameters so that they are ready to be used. ​
 
@@ -208,7 +208,7 @@ void setup() {​
 ```
 
 The **GetModel** function must be passed the name of the variable from the .cpp file obtained earlier that contains the C data matrix, as shown in the following image:
-[!](./imgs/get_model.png)
+![](./imgs/get_model.png)
 
 
 ###### Loop
