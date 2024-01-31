@@ -1,4 +1,4 @@
-# AI REGIO 5.0 AI Reployment on Open Hardware Guide
+# AI REGIO 5.0 AI Deployment on Open Hardware Guide
 
 ## Python Models to C Code Demostration​
 
