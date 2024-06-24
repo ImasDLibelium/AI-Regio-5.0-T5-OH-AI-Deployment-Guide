@@ -1,9 +1,0 @@
-# publish data
-docker run -it --rm efrecon/mqtt-client pub -h broker.emqx.io -t "topicName/aq" -m \
-'{"PM10":156.0, "PM2.5":137.0, "NO2":29.0,"SO2":17.0,"O3":5.0,"CO":1.1}'
-
-# subscribe to topic
-docker run -it --rm efrecon/mqtt-client sub \
-        -h broker.emqx.io \
-        -t "topicName/aq" \
-        -v
