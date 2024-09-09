@@ -153,3 +153,6 @@ To send input data to the ESP32 via MQTT, follow these details:
 - The system is designed to be flexible and scalable, allowing different models and parameters to be configured via JSON.
 - This project provides a solid foundation for using the ESP32 as a prediction device based on machine learning, suitable for applications in the Internet of Things (IoT).
 
+## Acknowledgement
+This work is performed in the context of the AI REDGIO 5.0 “Regions and (E)DIHs alliance for AI-at-the-Edge adoption by European Industry 5.0 Manufacturing SMEs” EU Innovation Action Project under Grant Agreement No 101092069
+
