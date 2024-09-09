@@ -1,9 +1,10 @@
-# Project Documentation for Prediction on ESP32
+# Project Documentation for AI REDGIO Open Hardware Platform: Prediction on ESP32
 
 ## Introduction
-This project demonstrates how to configure an ESP32 to load a TensorFlow Lite model and use it to perform predictions based on data received via MQTT. Configuration and input data are sent to the ESP32 using HTTP and MQTT, respectively.
+This project showcases how to configure an ESP32 within the AI REDGIO Open Hardware Platform to load a TensorFlow Lite model and perform predictions based on data received via MQTT. The configuration is delivered to the ESP32 through HTTP, while the input data for predictions is received via MQTT.
 
-*Everything is embedded in the ESP32, thus behaving like an Edge Node.*
+*Everything runs locally on the ESP32, making it function as an efficient Edge Node within the AI REDGIO ecosystem.*
+
 
 **Technologies Used**
 - ESP32: A low-cost microcontroller with WiFi and Bluetooth connectivity.
